@@ -10,13 +10,11 @@ namespace devinsays\optionsframework;
  */
 
 class Options_Framework_Interface {
-
 	/**
 	 * Generates the tabs that are used in the options menu
 	 */
-	static function optionsframework_tabs() {
+	static function optionsframework_tabs( $option_name, $options ) {
 		$counter = 0;
-		$options = & Options_Framework::_optionsframework_options();
 		$menu = '';
 
 		foreach ( $options as $value ) {
@@ -36,21 +34,11 @@ class Options_Framework_Interface {
 	/**
 	 * Generates the options fields that are used in the form.
 	 */
-	static function optionsframework_fields() {
+	static function optionsframework_fields( $option_name, $options) {
 
 		global $allowedtags;
-		$optionsframework_settings = get_option( 'optionsframework' );
-
-		// Gets the unique option id
-		if ( isset( $optionsframework_settings['id'] ) ) {
-			$option_name = $optionsframework_settings['id'];
-		}
-		else {
-			$option_name = 'optionsframework';
-		};
 
 		$settings = get_option($option_name);
-		$options = & Options_Framework::_optionsframework_options();
 
 		$counter = 0;
 		$menu = '';
@@ -416,7 +404,7 @@ class Options_Framework_Interface {
 		}
 
 		// Outputs closing div if there tabs
-		if ( Options_Framework_Interface::optionsframework_tabs() != '' ) {
+		if ( Options_Framework_Interface::optionsframework_tabs( $option_name, $options ) != '' ) {
 			echo '</div>';
 		}
 	}

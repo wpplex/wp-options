@@ -1,6 +1,5 @@
 <?php
 namespace devinsays\optionsframework;
-
 /**
  * @package   Options_Framework
  * @author    Devin Price <devin@wptheming.com>
