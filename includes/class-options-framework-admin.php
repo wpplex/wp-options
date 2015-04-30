@@ -1,5 +1,6 @@
 <?php
-namespace devinsays\optionsframework;
+namespace omarabid\optionsframework;
+
 /**
  * @package   Options_Framework
  * @author    Devin Price <devin@wptheming.com>

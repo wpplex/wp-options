@@ -19,7 +19,7 @@ class WP_Options {
         $this->options = $options;
 
         // Load the Options Framework Plugin
-        $adapter = new \devinsays\optionsframework\Adapter();
+        $adapter = new Adapter();
 
         // Enqueue the Options Framework CSS and JS files
         add_action( 'admin_enqueue_scripts', array( $adapter, 'enqueue_admin_styles' ) );
