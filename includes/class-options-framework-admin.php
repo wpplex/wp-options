@@ -1,5 +1,5 @@
 <?php
-namespace omarabid\optionsframework;
+namespace omarabid\WP_Options;
 
 /**
  * @package   Options_Framework
