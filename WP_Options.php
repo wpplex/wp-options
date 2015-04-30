@@ -1,4 +1,6 @@
 <?php
+namespace omarabid;
+
 /**
  * Options Panels 
  *
