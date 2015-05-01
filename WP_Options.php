@@ -17,10 +17,10 @@ class WP_Options {
 
         $this->option_name = $option_name;
 
- 		require_once( 'includes/class-options-framework.php' );
-		require_once( 'includes/class-options-interface.php' );
-		require_once( 'includes/class-options-media-uploader.php' );
-		require_once( 'includes/class-options-sanitization.php' );       
+ 		require_once( 'Includes/class-options-framework.php' );
+		require_once( 'Includes/class-options-interface.php' );
+		require_once( 'Includes/class-options-media-uploader.php' );
+		require_once( 'Includes/class-options-sanitization.php' );       
 
         // Register the Settings Form
         add_action( 'admin_init', array( &$this, 'settings_form' ), 100 );
