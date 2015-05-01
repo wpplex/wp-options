@@ -3,10 +3,7 @@ namespace omarabid\WP_Options;
 
 class Adapter {
 	function __construct() {
-		require_once( 'includes/class-options-framework.php' );
-		require_once( 'includes/class-options-interface.php' );
-		require_once( 'includes/class-options-media-uploader.php' );
-		require_once( 'includes/class-options-sanitization.php' );
+		
 	}
 
 	public function enqueue_admin_styles() {
