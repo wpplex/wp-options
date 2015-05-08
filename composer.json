@@ -4,13 +4,19 @@
 	"description": "A Fork of the Options Framework",
 	"keywords": ["wordpress", "options"],
 	"homepage": "http://omarabid.com",
-	"license": "MIT",
+	"license": "GPLv2",
 	"authors": [
+		{
+			"name": "Devin Price",
+			"email": "devin@wptheming.com",
+			"homepage": "http://wptheming.com",
+			"role": "Main Developer"
+		},
 		{
 			"name": "Abid Omar",
 			"email": "contact@omarabid.com",
 			"homepage": "http://omarabid.com",
-			"role": "Lead Developer"
+			"role": "Integration Developer"
 		}
 	],
 	"require": {
