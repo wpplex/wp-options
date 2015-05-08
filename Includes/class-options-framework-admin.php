@@ -1,5 +1,6 @@
 <?php
-namespace devinsays\optionsframework;
+namespace wpplex\WP_Options\Includes;
+
 /**
  * @package   Options_Framework
  * @author    Devin Price <devin@wptheming.com>

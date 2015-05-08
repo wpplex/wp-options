@@ -1,5 +1,5 @@
 <?php
-namespace wpplex;
+namespace wpplex/WP_Options;
 
 /**
  * Options Panels 
