@@ -1,2 +1,2 @@
 # wp-options
-A Fork of the Options Framework
+This package is a fork, and adaptation of the [Options Framework Plugin](https://github.com/devinsays/options-framework-plugin)
