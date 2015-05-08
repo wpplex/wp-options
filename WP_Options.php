@@ -1,5 +1,5 @@
 <?php
-namespace omarabid;
+namespace wpplex;
 
 /**
  * Options Panels 
