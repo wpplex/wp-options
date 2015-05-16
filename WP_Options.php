@@ -4,6 +4,8 @@ namespace wpplex\WP_Options;
 /**
  * Options Panels 
  *
+ * Load Options Framework, and pull the wanted bits
+ *
  * @class WP_Options
  * @package Inc
  * @subpackage Options 
